@@ -46,22 +46,25 @@ Firewalls" and add VcXsrv.
 
 Start XLaunch and configure it as below.  
 
+<p align="center">
 <img align="center" src="./images/displaysettings.png" alt="VcXsrv Settings" width="500"/>
 <img align="center" src="./images/displaysettings2.png" alt="VcXsrv Settings" width="500"/>
 <img align="center" src="./images/displaysettings3.png" alt="VcXsrv Settings" width="500"/>
+</p>
 
 Lastly, save the configuration to your desktop and call it
 `full_screen_config.xlaunch`.
 
 
-On your desktop, or your favorite place, create a powershell script called 
+On your desktop, create a powershell script called 
 `launch.ps1` and add the following code to it. 
 
 ```powershell
 start full_screen_config.xlaunch
-ubuntu1804.exe run "~/.scripts/wlaunch"
+ubuntu.exe run "~/.scripts/wlaunch"
 ```
-
+**NOTE**: Check if the command ubuntu.exe works by running it in powershell. 
+If you installed Ubuntu 18.04 the command is `ubuntu1804.exe` instead.
 
 ## Installing I3 
 
