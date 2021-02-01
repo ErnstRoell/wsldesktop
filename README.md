@@ -46,9 +46,9 @@ Firewalls" and add VcXsrv.
 
 Start XLaunch and configure it as below.  
 
-<img src="./images/displaysettings.png" alt="VcXsrv Settings" width="300"/>
-<img src="./images/displaysettings2.png" alt="VcXsrv Settings" width="300"/>
-<img src="./images/displaysettings3.png" alt="VcXsrv Settings" width="300"/>
+<img align="center" src="./images/displaysettings.png" alt="VcXsrv Settings" width="500"/>
+<img align="center" src="./images/displaysettings2.png" alt="VcXsrv Settings" width="500"/>
+<img align="center" src="./images/displaysettings3.png" alt="VcXsrv Settings" width="500"/>
 
 Lastly, save the configuration to your desktop and call it
 `full_screen_config.xlaunch`.
