@@ -1,9 +1,15 @@
 # Windows and Linux: A match made in Heaven!
 
+
+<p align="center">
+<img align="center" src="./images/start2.png" alt="VcXsrv Settings" width="500"/>
+</p>
+
+
 In this tutorial series we will show you how to create a desktop environment for
 Ubuntu in the Windows Subsystem for Linux.
 In fact, this guide has been written in it!
-The tutorial will cover the installation of following programs.
+This tutorial will cover the installation of following programs.
 
 1. Installing VcXsrv 
 2. Install i3-gaps
@@ -22,8 +28,8 @@ The output should be something along the lines of
 * Ubuntu-18.04    Running         2
 ```
 
-This guide does not work for version 1, if yours is not version 2, some great 
-tutorials exist to upgrade to version 2. 
+This guide does not work for version 1. 
+If necessary, upgrade to version 2 before continuing.
 
 
 Now that it is verified that the prerequisites are in place, let's start with
