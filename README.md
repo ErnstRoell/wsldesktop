@@ -8,3 +8,24 @@ The tutorial will cover the installation of following programs.
 2. Ranger as the file explorer
 3. Neovim as text editor 
 
+Begin by checking the version of your current Windows Subsystem for Linux, or by
+installing it if it has not yet been installed. 
+Open a command prompt and type the command
+```shell
+wsl -l -v
+```
+
+The output should be something along the lines of
+```
+  NAME            STATE           VERSION
+* Ubuntu-18.04    Running         2
+```
+
+This guide does not work for version 1, if yours is not version 2, some great 
+tutorials exist to upgrade to version 2. 
+
+
+
+
+
+
