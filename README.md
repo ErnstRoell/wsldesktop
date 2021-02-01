@@ -50,7 +50,7 @@ Start XLaunch and configure it as below.
 ![display](./images/displaysettings2.png)
 ![display](./images/displaysettings3.png)
 
-<img src=".displaysettings.png" alt="VcXsrv Settings" width="150"/>
+<img src="./images/displaysettings.png" alt="VcXsrv Settings" width="150"/>
 
 Lastly, save the configuration to your desktop and call it
 `full_screen_config.xlaunch`.
