@@ -4,9 +4,10 @@ In this tutorial series we will show you how to create a desktop environment for
 Ubuntu in the Windows Subsystem for Linux.
 In fact, this guide has been written in it!
 The tutorial will cover the installation of following programs.
-1. I3 Window Manager 
-2. Ranger as the file explorer
-3. Neovim as text editor 
+
+1. Installing VcXsrv 
+2. Install i3-gaps
+3. Install neovim and ranger 
 
 Begin by checking the version of your current Windows Subsystem for Linux, or by
 installing it if it has not yet been installed. 
@@ -45,7 +46,9 @@ Firewalls" and add VcXsrv.
 
 Start XLaunch and configure it as below.  
 
-IMAGES
+![display](./images/displaysettings.png)
+![display](./images/displaysettings2.png)
+![display](./images/displaysettings3.png)
 
 Lastly, save the configuration to your desktop and call it
 `full_screen_config.xlaunch`.
@@ -63,13 +66,6 @@ ubuntu1804.exe run "~/.scripts/wlaunch"
 ## Installing I3 
 
 Next we install i3-gaps.
-Start Ubuntu and run.
-
-```
-sudo add-apt-repository ppa:kgilmer/speed-ricer
-sudo apt-get update
-sudo apt install i3-gaps
-```
 
 In the home directory create a folder called .scripts and a
 folder called `.config`. These will hold all the configuration files and the
@@ -79,7 +75,18 @@ scripts.
 mkdir .config 
 mkdir .scripts 
 ```
+
+Then add the ppa containing `i3-gaps` and install it.
+
+```
+sudo add-apt-repository ppa:kgilmer/speed-ricer
+sudo apt-get update
+sudo apt install i3-gaps
+```
+
 Create a file called wlaunch and open it in nano (or any text editor).
+This will be the startup script we will later create a shortcut from to start
+the desktop from Windows.
 
 ```
 cd .scripts
@@ -105,15 +112,6 @@ sudo chmod +x wlaunch
 ```
 
 Now we test the solution by running the file `launch.ps1` 
-
-
-## Setting up Ubuntu 
-
-
-
-
-
-
 
 
 
