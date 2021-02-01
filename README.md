@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<img align="center" src="./images/start2.png" alt="VcXsrv Settings" width="500"/>
+<img align="center" src="./images/start2.png" alt="VcXsrv Settings"/>
 </p>
 
 
