@@ -122,6 +122,30 @@ sudo chmod +x wlaunch
 
 Now we test the solution by running the file `launch.ps1` 
 
+test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
