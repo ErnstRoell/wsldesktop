@@ -122,6 +122,22 @@ sudo chmod +x wlaunch
 
 Now we test the solution by running the file `launch.ps1` 
 
+## Install ranger, urxvt and neovim
+
+As a last step we run the command 
+```
+sudo apt install ranger
+sudo apt install neovim
+sudo apt install rxvt-unicode
+```
+
+When you now run launch.ps1 you will be greeted with a black screen with the i3
+status bar on the bottom of your window. 
+If you hit Alt+Enter, a terminal screen will pop up. 
+
+This is certainly not the prettiest sight and in the next tutorial we will begin 
+creating a beautiful desktop environment. 
+The fact that i3 is highly customizable also means we need to configure a lot.
 
 
 
